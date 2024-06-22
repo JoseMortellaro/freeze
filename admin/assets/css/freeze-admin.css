@@ -1,0 +1,15 @@
+.freeze-hidden{
+  display:none !important
+}
+#freeze-rename-submit{
+  background-image:url(../img/ajax-loader.gif);
+  background-repeat:no-repeat;
+  background-size:32px 32px;
+  background-position:-9999px -9999px
+}
+.freeze-progress #freeze-rename-submit{
+  background-position:center center
+}
+#freeze-section .notice {
+    padding: 10px
+}
